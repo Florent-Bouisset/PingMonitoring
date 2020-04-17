@@ -54,7 +54,7 @@ def createThreads(boxIP, GoogleIP):
     pingGoogle = threadPingGoogle.getPing()
     return (pingBox, pingGoogle)
     
-chemin  = "ping.csv"
+chemin  = "../ping.csv"
 googleIP = "8.8.8.8"
 boxIP = "192.168.1.1"
 
